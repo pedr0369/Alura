@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="org.pedrofranco.cenourapp">
+    <name>Só de cenoura</name>
+
+    <description>
+        Menu do restaurante Só de Cenoura
+    </description>
+
+    <author href="http://franconet.com.br" email="pedro@franconet.com.br">
+        Pedro Franco
+    </author>
+
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+
+    <gap:platform name="android" />
+</widget>

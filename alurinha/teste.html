@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>        
+
+        .box:nth-child(1){ background: red; }
+        .box:nth-child(2){ background: blue; }
+        .box:nth-child(3){ background: gray; }
+        .box:nth-child(4){ background: purple; }
+        .box:nth-child(5){ background: green; }
+        .box:nth-child(6){ background: pink; }
+        .box:nth-child(7){ background: brown; }
+        .box:nth-child(8){ background: black; }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .box { 
+            height: 80px; 
+            width: 80px; 
+            flex-grow: 1;
+        }
+
+        .ultimo {
+            flex-grow: 5;
+            flex-shrink: 5;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box ultimo"></div>
+    </div>
+
+</body>
+</html>
